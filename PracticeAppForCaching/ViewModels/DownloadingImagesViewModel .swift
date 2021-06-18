@@ -7,6 +7,7 @@
 
 import Foundation
 import Combine
+
 class DownloadingImagesViewModel : ObservableObject {
     @Published  var dataArray : [PhotoModel] = []
     var cancellables = Set<AnyCancellable>()
@@ -21,6 +22,6 @@ class DownloadingImagesViewModel : ObservableObject {
             .sink {[weak self] (returnedPhotoModels) in
                 self?.dataArray = returnedPhotoModels
             }
-            .store(in: &cancellables )
+            .store(in: &cancellables)
     }
 }

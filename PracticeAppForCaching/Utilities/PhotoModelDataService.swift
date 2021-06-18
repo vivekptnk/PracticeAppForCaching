@@ -22,7 +22,7 @@ class PhotoModelDataService {
     }
     
     func downloadData() {
-        guard let url = URL(string: " https://jsonplaceholder.typicode.com/photos") else {return}
+        guard let url = URL(string: "https://jsonplaceholder.typicode.com/photos") else {return}
         
         URLSession.shared.dataTaskPublisher(for: url)
             .subscribe(on: DispatchQueue.global(qos: .background))
