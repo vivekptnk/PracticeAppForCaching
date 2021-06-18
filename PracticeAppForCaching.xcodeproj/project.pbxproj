@@ -11,6 +11,10 @@
 		E33B6019267D5B510046595D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33B6018267D5B510046595D /* ContentView.swift */; };
 		E33B601B267D5B510046595D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E33B601A267D5B510046595D /* Assets.xcassets */; };
 		E33B601E267D5B510046595D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E33B601D267D5B510046595D /* Preview Assets.xcassets */; };
+		E33B602A267D5B8C0046595D /* DownloadingImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33B6029267D5B8C0046595D /* DownloadingImages.swift */; };
+		E33B602C267D5C8E0046595D /* PhotoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33B602B267D5C8E0046595D /* PhotoModel.swift */; };
+		E33B602E267D5D0F0046595D /* DownloadingImagesViewModel .swift in Sources */ = {isa = PBXBuildFile; fileRef = E33B602D267D5D0F0046595D /* DownloadingImagesViewModel .swift */; };
+		E33B6030267D5DBE0046595D /* PhotoModelDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33B602F267D5DBE0046595D /* PhotoModelDataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		E33B601A267D5B510046595D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E33B601D267D5B510046595D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E33B601F267D5B510046595D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E33B6029267D5B8C0046595D /* DownloadingImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadingImages.swift; sourceTree = "<group>"; };
+		E33B602B267D5C8E0046595D /* PhotoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoModel.swift; sourceTree = "<group>"; };
+		E33B602D267D5D0F0046595D /* DownloadingImagesViewModel .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DownloadingImagesViewModel .swift"; sourceTree = "<group>"; };
+		E33B602F267D5DBE0046595D /* PhotoModelDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoModelDataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +60,10 @@
 		E33B6015267D5B510046595D /* PracticeAppForCaching */ = {
 			isa = PBXGroup;
 			children = (
+				E33B6028267D5B720046595D /* Utilities */,
+				E33B6027267D5B6B0046595D /* ViewModels */,
+				E33B6026267D5B610046595D /* Models */,
+				E33B6025267D5B590046595D /* Views */,
 				E33B6016267D5B510046595D /* PracticeAppForCachingApp.swift */,
 				E33B6018267D5B510046595D /* ContentView.swift */,
 				E33B601A267D5B510046595D /* Assets.xcassets */,
@@ -67,6 +79,38 @@
 				E33B601D267D5B510046595D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E33B6025267D5B590046595D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E33B6029267D5B8C0046595D /* DownloadingImages.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E33B6026267D5B610046595D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E33B602B267D5C8E0046595D /* PhotoModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E33B6027267D5B6B0046595D /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				E33B602D267D5D0F0046595D /* DownloadingImagesViewModel .swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		E33B6028267D5B720046595D /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				E33B602F267D5DBE0046595D /* PhotoModelDataService.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +184,10 @@
 			files = (
 				E33B6019267D5B510046595D /* ContentView.swift in Sources */,
 				E33B6017267D5B510046595D /* PracticeAppForCachingApp.swift in Sources */,
+				E33B6030267D5DBE0046595D /* PhotoModelDataService.swift in Sources */,
+				E33B602C267D5C8E0046595D /* PhotoModel.swift in Sources */,
+				E33B602E267D5D0F0046595D /* DownloadingImagesViewModel .swift in Sources */,
+				E33B602A267D5B8C0046595D /* DownloadingImages.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
