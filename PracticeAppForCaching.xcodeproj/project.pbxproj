@@ -15,6 +15,9 @@
 		E33B602C267D5C8E0046595D /* PhotoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33B602B267D5C8E0046595D /* PhotoModel.swift */; };
 		E33B602E267D5D0F0046595D /* DownloadingImagesViewModel .swift in Sources */ = {isa = PBXBuildFile; fileRef = E33B602D267D5D0F0046595D /* DownloadingImagesViewModel .swift */; };
 		E33B6030267D5DBE0046595D /* PhotoModelDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33B602F267D5DBE0046595D /* PhotoModelDataService.swift */; };
+		E33B6032267D6B860046595D /* DownloadingImagesRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33B6031267D6B860046595D /* DownloadingImagesRow.swift */; };
+		E33B6034267D6BFE0046595D /* DownloadingImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33B6033267D6BFE0046595D /* DownloadingImageView.swift */; };
+		E33B6036267D6F060046595D /* ImageLoadingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33B6035267D6F060046595D /* ImageLoadingViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,9 @@
 		E33B602B267D5C8E0046595D /* PhotoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoModel.swift; sourceTree = "<group>"; };
 		E33B602D267D5D0F0046595D /* DownloadingImagesViewModel .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DownloadingImagesViewModel .swift"; sourceTree = "<group>"; };
 		E33B602F267D5DBE0046595D /* PhotoModelDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoModelDataService.swift; sourceTree = "<group>"; };
+		E33B6031267D6B860046595D /* DownloadingImagesRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadingImagesRow.swift; sourceTree = "<group>"; };
+		E33B6033267D6BFE0046595D /* DownloadingImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadingImageView.swift; sourceTree = "<group>"; };
+		E33B6035267D6F060046595D /* ImageLoadingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoadingViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,8 @@
 			isa = PBXGroup;
 			children = (
 				E33B6029267D5B8C0046595D /* DownloadingImages.swift */,
+				E33B6031267D6B860046595D /* DownloadingImagesRow.swift */,
+				E33B6033267D6BFE0046595D /* DownloadingImageView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -101,6 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				E33B602D267D5D0F0046595D /* DownloadingImagesViewModel .swift */,
+				E33B6035267D6F060046595D /* ImageLoadingViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -182,9 +191,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E33B6036267D6F060046595D /* ImageLoadingViewModel.swift in Sources */,
 				E33B6019267D5B510046595D /* ContentView.swift in Sources */,
+				E33B6034267D6BFE0046595D /* DownloadingImageView.swift in Sources */,
 				E33B6017267D5B510046595D /* PracticeAppForCachingApp.swift in Sources */,
 				E33B6030267D5DBE0046595D /* PhotoModelDataService.swift in Sources */,
+				E33B6032267D6B860046595D /* DownloadingImagesRow.swift in Sources */,
 				E33B602C267D5C8E0046595D /* PhotoModel.swift in Sources */,
 				E33B602E267D5D0F0046595D /* DownloadingImagesViewModel .swift in Sources */,
 				E33B602A267D5B8C0046595D /* DownloadingImages.swift in Sources */,
